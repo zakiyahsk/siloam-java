@@ -1,0 +1,21 @@
+CREATE TABLE topup(
+    id VARCHAR(255) PRIMARY KEY,
+    ref_merchant_id VARCHAR (255),
+    order_id VARCHAR (255),
+    currency VARCHAR (255),
+    amount integer,
+    channel_id VARCHAR (255),
+    account VARCHAR (255),
+    stan VARCHAR (255),
+    signature VARCHAR (255),
+    reference_number VARCHAR (255),
+    authpg VARCHAR (255),
+    phone_number VARCHAR (250),
+    topup_status VARCHAR (100),
+    topup_code VARCHAR (255),
+    partner_code VARCHAR (100),
+    created_by BIGINT,
+    created_date TIMESTAMP,
+    last_update_by BIGINT,
+    last_update_date TIMESTAMP
+);
