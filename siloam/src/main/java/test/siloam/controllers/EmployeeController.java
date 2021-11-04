@@ -18,7 +18,7 @@ import test.siloam.services.EmployeeService;
  * @author Zahra MII
  */
 @RestController
-@RequestMapping("/employee")
+//@RequestMapping("/employee")
 public class EmployeeController {
     @Autowired
     EmployeeService employeeService;
